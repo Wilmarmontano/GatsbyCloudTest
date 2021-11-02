@@ -1,10 +1,11 @@
 import * as React from "react"
+import Layout from "../components/layout";
 import { test } from "../styles/about.module.css"
 
 const aboutPage = () => (
-    <div>
+    <Layout>
         <p className={test}>About Page</p>
-    </div>
+    </Layout>
 )
 
 export default aboutPage;
